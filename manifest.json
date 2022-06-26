@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "TradingView Hide Ads",
+  "version": "1.0",
+  "description": "Chrome/Chromium extension to hide ads from TradingView.",
+  "homepage_url": "https://github.com/YasinC2/TradingView-Hide-Ads",
+  "icons": {
+    "128": "images/icon-128.png",
+    "48": "images/icon-128.png",
+    "16": "images/icon-128.png"
+  },
+  "action": {
+    "default_icon": "images/icon-128.png",
+    "default_title": "TradingView Hide Ads"
+  },
+  "content_scripts": [{
+    "matches": ["https://www.tradingview.com/*"],
+    "css": ["content.css"]
+  }],
+  "host_permissions": [
+    "https://www.tradingview.com/*"
+  ]
+}

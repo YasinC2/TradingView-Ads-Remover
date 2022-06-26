@@ -1,0 +1,12 @@
+div[id*=div-gpt-ad-],
+article[class*=trial-notification-] {
+  display: none !important;
+}
+
+article[class*=trial-notification-] {
+    transform: scale(0);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform-origin: bottom left;
+}
