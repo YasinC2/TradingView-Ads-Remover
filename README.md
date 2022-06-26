@@ -23,10 +23,10 @@ or
  Use [this tutorial](https://techjourney.net/chrome-edge-disables-crx-installed-extensions-workarounds-to-turn-on/)
  or
  Open `chrome://system/` and find extension id in extensions section, then create a .reg file and copy the text below and paste it to the created file and replace `ExtensionID` with id you find from previous step. save the file and run it.
- `
+ ```
  Windows Registry Editor Version 5.00
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Edge\ExtensionInstallAllowlist]
 "999"="ExtensionID"
- `
+ ```
  This registry introduces extension to the browser as a trusted extension.
