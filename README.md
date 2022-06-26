@@ -17,10 +17,11 @@ If after installing the extension file, one of the following messages was displa
  there are two method you can fix the problem:
  
  #### Method 1: Install as Unpacked Extension
- Extract .crx file to a folder, and then install the extension by using **Load unpacked** option.
+ Extract .crx file to a folder, enable **"Developer mode"** in `chrome://extensions/` and then install the extension by using **"Load unpacked"** option.
  
  #### Method 2: Whitelist the Extension through Policies
- Open `chrome://system/` and find extension id in extensions section, then create a .reg file and copy the text below and paste it to the created file and replace `ExtensionID` with id you find from previous step. save the file and run it.    
+ 1. Open `chrome://extensions/` and enable **"Developer mode"**, then find extension id in extension details
+ 2. create a .reg file and copy the text below and paste it to the created file and replace `ExtensionID` with id you find from previous step. save the file and run it.    
     
  Chrome:   
  ```
