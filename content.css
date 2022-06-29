@@ -1,3 +1,7 @@
+[data-role="toast-container"] {
+  display: none !important;
+}
+
 div[id*=div-gpt-ad-],
 article[class*=trial-notification-] {
   display: none !important;
